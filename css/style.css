@@ -24,7 +24,7 @@
     justify-items: center;
 
 }
-.part-shop img{
+.introducing img{
     width: 250px;
     height: 200px;
     border-radius: 30px;
@@ -91,13 +91,13 @@ h6{
     color:green;
     font-size: 20px;
 }
-.coffee-machine{
+.esspresso{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-row:minmax(100px, auto);
     justify-items: center;
 }
-.information{
+.rent-box{
     display:grid;
     grid-template-columns: 1fr; 
     justify-items: center;
