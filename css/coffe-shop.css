@@ -1,3 +1,16 @@
+.part-shop>div .pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3em;
+    justify-items: center;
+}
+.part-shop>div .text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3em;
+    justify-items: center;
+
+}
 .part-shop img{
     width: 250px;
     height: 200px;
