@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&display=swap');
+
 .about-coffee {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -102,4 +104,37 @@ h6{
     grid-template-columns: 1fr; 
     justify-items: center;
 }
+<!------------Olya----------------->
+.rental
+{
+    background-image: url(../img/background-coffe.jpg); 
+    background-size: cover;
+    background-position: center ;
+}
+.rental h1 {   
+    font-family: 'Poppins', sans-serif;
+    color:red;
+    border }
 
+ .rental h2 {    
+        font-family: 'Roboto Slab', serif;
+        color:black; 
+        border 
+    }
+.rental button {
+    color: red
+}
+
+}
+
+main div products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.offer {
+    background-image: url(../img/background-coffe-machine.jpg); 
+    background-size: cover;
+    background-position: center ;
+    height: 666px;
+    
+.contacts
