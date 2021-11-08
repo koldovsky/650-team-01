@@ -6,6 +6,7 @@
     grid-row:minmax(100px, auto);
     justify-items: center;
 }
+
 .pictures{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -105,8 +106,7 @@ h6{
     justify-items: center;
 }
 <!------------Olya----------------->
-.rental
-{
+.rental{
     background-image: url(../img/background-coffe.jpg); 
     background-size: cover;
     background-position: center ;
@@ -114,9 +114,10 @@ h6{
 .rental h1 {   
     font-family: 'Poppins', sans-serif;
     color:red;
-    border }
+    border
+ }
 
- .rental h2 {    
+ .rental h2{    
         font-family: 'Roboto Slab', serif;
         color:black; 
         border 
@@ -125,7 +126,6 @@ h6{
     color: red
 }
 
-}
 
 main div products {
     display: grid;
@@ -136,5 +136,7 @@ main div products {
     background-size: cover;
     background-position: center ;
     height: 666px;
-    
-.contacts
+}
+.partners{
+    background: #222222;
+ }
