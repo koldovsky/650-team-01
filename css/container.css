@@ -5,12 +5,21 @@
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 3em;
+    padding: 55 0 110 0;
 }
 .container img{    
     width: 250px;
     height: 200px;
     border-radius: 30px;
+<<<<<<< HEAD
 }
+=======
+    display:block;
+    margin:auto;
+
+}
+    
+>>>>>>> b71fa82f18ce3b01cd44eeda76d4e9b890b02794
 
 figure{
     padding: 4px;
@@ -24,10 +33,11 @@ span{
     color:red;}
 .container h6 {
     color:black;
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 25px;
+    margin: 15px;
 }
 
 .container p{
     color:grey;
+    font-size:25px;
 }
