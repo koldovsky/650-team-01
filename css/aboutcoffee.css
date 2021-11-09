@@ -12,21 +12,21 @@
     font-size: 25px;
 
 }
-img {
-    width: 500px;
-    height: 400px;
+.about-coffee img {
+    width: 600px;
+    height: 500px;
     border-radius:20px;
 }
-h1{
+.Coffee-Space h1{
     color:black;
     font-size: 60px;
     margin: 40px 0px 40px 0px;
 }
-p{
+.Coffee-Space p{
     color:red;
     font-size: 25px;
 }
-h2{
+.Coffee-Space h2{
     color:rgb(100, 98, 98);
     font-size: 30px;
 }
@@ -34,7 +34,7 @@ h2{
     color:black;
     font-size:30px;
 }
-.picture{
+.Coffee-Space .picture{
     width: 30px;
     height: 30px;
 }
