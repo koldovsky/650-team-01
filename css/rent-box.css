@@ -4,4 +4,18 @@
     display:grid;
     grid-template-columns: 1fr; 
     justify-items: center;
+    
+}
+.rent-box p{
+color:red;
+font-size: 20px;
+}
+.rent-box h1{
+color:black;
+font-size:50px;
+
+}
+.rent-box h2{
+color:grey;
+font-size:35;
 }
