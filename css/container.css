@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&display=swap');
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3em;
+}
+.container img{    
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;}
+
+figure{
+    padding: 4px;
+    margin: auto;
+}
+figcaption{
+    padding: 2px;
+    text-align: center;
+}
+span{
+    color:red;}
+.container h6 {
+    color:black;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container p{
+    color:grey;
+}

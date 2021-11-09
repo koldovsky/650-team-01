@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Machine Rental Website Template Demo</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/aboutcoffee.css">
+    <link rel="stylesheet" href="css/espresso.css">
+    <link rel="stylesheet" href="css/rent-box.css">
 </head>
 
 <body>
@@ -39,36 +43,36 @@
                 <h1>About Coffee Space</h1>
                 <h2>For 10 years, our company has been marking sure that you can always drink the most delicious
                     coffee from the best coffee machines.</h2>
-                <h4>We offer our customers a wide selection of coffee machines for different budgets. In
+                <h3>We offer our customers a wide selection of coffee machines for different budgets. In
                     addition
                     to the equipment, we also sell coffee beans from the best producers. Our company does everything
                     to
-                    ensure that you can enjoy delicious coffee whenever you want.</h4>
-                <img class="picture" src="img/tick.png" alt="tick">
-                <h3>For offices and commercial use</h3>
-                <h4>We offer our corporate clients coffee machines with high performance. You can rent a
+                    ensure that you can enjoy delicious coffee whenever you want.</h3>
+                <div>
+                    <img class="picture" src="img/tick.png" alt="tick">
+                    <span>For offices and commercial use</span>
+                </div>
+                <h3>We offer our corporate clients coffee machines with high performance. You can rent a
                     coffee
-                    machine for use in office kitchens and coffee shops.</h4>
-                <img class="picture" src="img/tick.png" alt="tick">
-                <h3>For your home</h3>
-                <h4>If you want to enjoy delicious and aromatic coffee at home, you will find budget and
-                    compact options in our store.</h4>
+                    machine for use in office kitchens and coffee shops.</h3>
+                <div>
+                    <img class="picture" src="img/tick.png" alt="tick">
+                    <span>For your home</span>
+                </div>
+                <h3>If you want to enjoy delicious and aromatic coffee at home, you will find budget and
+                    compact options in our store.</h3>
             </div>
         </div>
         <!-- .about coffee space  -->
         <!-- indulgo z9  -->
-        <div class="esspresso">
+        <div class="espresso">
             <div class="coffee-photo">
-                <img src="img/coffee-machine.png" alt="machine">
-                <h1>Indulgo</h1>
-                <p class="none">z9</p>
+                <h1>Indulgo<span>Z9</span></h1>
                 <h2>Powerful coffee machine for delicious coffee.</h2>
             </div>
             <div class="Coffee-Beans">
-                <img src="img/women.png" alt="women">
-                <h5>Espresso Coffee Beans</h5>
-                <h6>Just</h6>
-                <p class="none">$4.00</p>
+                <h3>Espresso Coffee Beans</h3>
+                <h4>Just<span>$4.00</span></h4>
                 <p class="wort">Order now</p>
             </div>
         </div>
@@ -81,35 +85,48 @@
         </div>
         <!-- rent a coffee machine  -->
         <!-- Introducing SMIK  -->
-        <div class="introducing">
-            <div class="pictures">
+        <div class=container>
+            <figure>
                 <img src="img/coffee.png" alt="coffee">
-                <img src="img/photo.png" alt="photo">
+                <figcaption>
+                    <div>
+                        <h6><span>01.</span>Select a Coffee Machine</h6>
+                        <p>In our online store, you will find coffee machines of any size and performance.</p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="img/girl.png" alt="girl">
+                <figcaption>
+                    <div>
+                        <h6><span>02.</span>Send a Request</h6>
+                        <p>Add the coffee machine to the cart, and our manager will contact you soon to conclude
+                            the agreement.</p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
                 <img src="img/people.png" alt="people">
+                <figcaption>
+                    <div>
+                        <h6><span>03.</span>Expect Delivery</h6>
+                        <p>Delivery of the coffee machine is carried out within a day after the confirmation of
+                            your order.</p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
                 <img src="img/man.png" alt="man">
-            </div>
-            <div class="box">
-                <p class="numbers">01.</p>
-                <p class="numbers">02.</p>
-                <p class="numbers">03.</p>
-                <p class="numbers">04.</p>
-            </div>
-            <div class="box2">
-                <p class="sentense">Select a Coffee Machine</p>
-                <p class="sentense">Send a Request</p>
-                <p class="sentense">Expect Delivery</p>
-                <p class="sentense">Enjoy Delicious Coffee</p>
-            </div>
-            <div class="box2">
-                <p class="subtext">In our online store, you will find coffee machines of any size and performance.</p>
-                <p class="subtext">Add the coffee machine to the cart, and our manager will contact you soon to conclude
-                    the agreement.</p>
-                <p class="subtext">Delivery of the coffee machine is carried out within a day after the confirmation of
-                    your order.</p>
-                <p class="subtext">We will connect and configure the coffee machine, you just have to press the button
-                    and
-                    enjoy!</p>
-            </div>
+                <figcaption>
+                    <div>
+                        <h6><span>04.</span>Enjoy Delicious Coffee</h6>
+                        <p>We will connect and configure the coffee machine, you just have to press the button
+                            and
+                            enjoy!</p>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
         </div><!-- Introducing SMIK  -->
 
         <div class="slick-brands">
@@ -174,20 +191,20 @@
 
             <!-- Olya Get 1 month free -->
             <div class="offer">
-            <div class="offer_text">
-                <h1>Get 1 month free* usage</h1>
-                <h2>*Rent any coffee machine for at least 6 months and get 1 month for free!
-                    This promotion is valid only until May 31, 2021, and can't be combined with other offers.
-                </h2>
-                <div class="offer_button">
-                    <button>Rent Now</button>
-                    <button>Learn More</button>
+                <div class="offer_text">
+                    <h1>Get 1 month free* usage</h1>
+                    <h2>*Rent any coffee machine for at least 6 months and get 1 month for free!
+                        This promotion is valid only until May 31, 2021, and can't be combined with other offers.
+                    </h2>
+                    <div class="offer_button">
+                        <button>Rent Now</button>
+                        <button>Learn More</button>
+                    </div>
                 </div>
             </div>
-            </div>
-          
 
-        </div> 
+
+        </div>
 
         <div class="relate">
             <!-- everything Related to coffee  -->
@@ -281,11 +298,11 @@
         <div class="questions-box">
             <!-- ASK US -->
         </div> <!-- ASK US -->
-       <!-- Vova Pricing and Ready to rent -->
+        <!-- Vova Pricing and Ready to rent -->
         <div class="pricing">
             <header>PRICING</header>
             <h1>Ready to Rent a Coffee Machine?</h1>
-        <!-- ready to rent?  -->
+            <!-- ready to rent?  -->
         </div> <!-- ready to rent?  -->
 
         <div class="production-container">
@@ -410,9 +427,9 @@
 
     <div class="Ivan"></div>
     <div class="Mark">
-        
-            
-        </div>
+
+
+    </div>
 </body>
 
 </html>
