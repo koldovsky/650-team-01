@@ -9,7 +9,8 @@
 }
 .rent-box p{
 color:red;
-font-size: 20px;
+font-size: 25px;
+padding: 70px 0px 0px 0px;
 
 }
 .rent-box h1{
@@ -22,4 +23,5 @@ margin: 30px 0px 0px 0px;
 color:grey;
 font-size:35;
 margin: 30px 0px 0px 0px;
+padding:0px 0px 70px 0px;
 }
