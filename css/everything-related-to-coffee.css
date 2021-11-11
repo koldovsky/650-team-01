@@ -20,3 +20,26 @@
 margin-bottom: 30px;
 }
 
+.relate-nav {
+    display: flex;
+    text-align: center;
+}
+
+.relate-nav-text {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+
+.relate-sub-header {
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+}
+
+.relate-coffee-main {
+    padding: 0px 24px 0px 24px;
+}
