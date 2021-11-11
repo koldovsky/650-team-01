@@ -1,0 +1,10 @@
+.relate {
+    display: block;
+    justify-content: center;
+    padding: 55px 24px 60px 24px;
+}
+
+.relate .present-box-header {
+    text-align: center;
+}
+
