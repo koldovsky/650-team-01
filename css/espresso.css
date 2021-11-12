@@ -6,9 +6,7 @@
     justify-items: center;
 }
 .coffee-photo{
-    width: 650px;
-    height: 450px;
-    border-radius:20px;
+      border-radius:20px;
     background-image: url(../img/coffee-machine.png);
     background-size: cover;
     background-position: center;
@@ -23,8 +21,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 650px;
-    height: 450px;
     border-radius:20px;
     justify-content: center;
     align-items: center;
@@ -83,7 +79,6 @@ h4{
     padding:15px;
     font-size:40px;
 }
-
 
 
 

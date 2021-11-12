@@ -1,49 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&display=swap');
 
-.about-coffee {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row:minmax(100px, auto);
-    justify-items: center;}
+.about-coffee{
+padding: 50px;
+display: block;
+justify-content: center;
+}
+@media (min-width: 800px) {
+    .about-coffee {
+        padding: 100px;
+        display: flex;
+                   
+    }    
+}
+
+.about-coffee img {
+    width: 100%;
+    display:block;
+    border-radius:30px;
+    margin: auto;
     
-.Coffee-Space{
+}
+.about-coffee-space .picture{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+.about-coffee-space span{
+    color:black;
+    font-size:30px;
+    
+}
+.about-coffee-space{
+    margin-top: 15px;
+}
+.coffee-space{
   padding: 0px 15px 0px 15px;
     }
 
-.Coffee-Space h3{
+.coffee-space h3{
     color:grey;
     font-size: 25px;
     margin: 30px 0px 30px 0px;
 }
-.about-coffee img {
-    width: 600px;
-    height: 500px;
-    border-radius:30px;
-    padding: 0px 15px 0px 15px;
-}
-.Coffee-Space h1{
+.coffee-space h1{
     color:black;
     font-size: 60px;
     margin: 40px 0px 40px 0px;
 }
-.Coffee-Space p{
+.about-coffee p{
     color:red;
     font-size: 25px;
 }
-.Coffee-Space h2{
+.about-coffee h2{
     color:rgb(100, 98, 98);
-    font-size: 30px;
+    font-size: 25px;
 }
-.Coffee-Space span{
-    color:black;
-    font-size:30px;
-}
-.Coffee-Space .picture{
-    width: 30px;
-    height: 30px;
-}
-.Coffee-Space .inform{
+
+.about-coffee-space .inform{
     color:grey;
     font-size:25px;
-    margin: 20px 20px 20px 60px;
+    margin: 10px 20px 10px 20px;
 }
