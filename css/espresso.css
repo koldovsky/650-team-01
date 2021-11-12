@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&display=swap');
 .espresso{
     display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(186px,1fr)); */
     grid-template-columns: 1fr 1fr;
     padding: 30px 0px 30px 0px;
     justify-items: center;
 }
+@media (max-width: 800px) {
+    .espresso {
+        grid-template-columns: 1fr ;
+                   
+    }    
+} 
+
 .coffee-photo{
-      border-radius:20px;
+    border-radius:20px;
+     width: 650px;
+    height: 450px;
     background-image: url(../img/coffee-machine.png);
     background-size: cover;
     background-position: center;
@@ -25,6 +35,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 650px;
+    height: 450px;
 }
     hr{
    height: 2px;
