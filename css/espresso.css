@@ -3,8 +3,9 @@
   display: grid;
   /* grid-template-columns: repeat(auto-fit, minmax(186px,1fr)); */
   grid-template-columns: 1fr 1fr;
-  padding: 30px 0px 30px 0px;
-  justify-items: center;
+  padding: 30px 20px 30px 20px;
+  grid-gap: 20px;
+  height: 329px;
 }
 @media (max-width: 800px) {
   .espresso {
@@ -13,34 +14,32 @@
 }
 
 .coffee-photo {
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
-  width: 650px;
-  height: 450px;
   background-image: url(../img/coffee-machine.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  grid-gap: 20px;
+  padding-top: 10%;
 }
 .Coffee-Beans {
+  display: flex;
+  flex-direction: column;
   background-image: url(../img/women.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 650px;
-  height: 450px;
+  padding: 10% 0 0 10%;
 }
-hr {
+.espresso hr {
   height: 2px;
   width: 9%;
   background-color: #c00407;
-  margin: 0px 300px 0px 300px;
+  justify-self: center;
 }
 .espresso h1 span {
   color: #c00407;
@@ -51,45 +50,41 @@ hr {
 
 .espresso h1 {
   color: #222;
-  text-align: center;
-  margin: 60px 0px 20px 0;
   font-size: 34px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700px;
-  line-height: 40, 8px;
+  font-weight: 700;
+  line-height: 40.8px;
+  justify-self: center;
 }
 
 .espresso h2 {
-  text-align: center;
   color: #8c8c8c;
   font-size: 16px;
-  margin: 30px 0px 10px 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 400px;
-  line-height: 25, 6px;
+  line-height: 25.6px;
+  justify-self: center;
 }
-h3 {
+.Coffee-Beans h3 {
   color: #fff;
   font-size: 34px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700px;
-  margin: 50px 0px 50px 40px;
+  font-weight: 700;
 }
-h4 {
+.Coffee-Beans h4 {
   color: #fff;
-  font-weight: 800px;
+  font-weight: 800;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   word-spacing: 10em;
-  margin: 40px 0px 40px 40px;
 }
 .wort {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
-  margin-left: 40px;
-  font-weight: 400px;
-  line-height: 19, 2px;
+  padding-top: 30px;
+  font-weight: 400;
+  line-height: 19.2px;
 }
 .Coffee-Beans span {
   padding: 15px;
