@@ -9,9 +9,10 @@
   display: flex;
   box-shadow: 0 5px 10px 7px rgb(136 140 133 / 5%);
   width: 30%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   align-items: center;
   margin: 10px;
+  padding: 50px;
 }
 .card-img img {
   width: 70px;
