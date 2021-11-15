@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Machine Rental Website Template Demo</title>
+    <link rel="stylesheet" href="css/navBar.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/aboutcoffee.css">
@@ -20,11 +21,51 @@
 </head>
 
 <body>
-    <header>
-        <div class="nav-box">
+    <header class="navbar">
+        <a href="index.html" class="logo"><img src="img/logo.svg" alt="Beetroot"></a>
 
-        </div> <!-- menu container  -->
+        <nav class="menu">
+            <ul class="menu-desktop">
+                <li class="menu-desktop__item"><a class="menu-desktop__link" href="#">About Us</a></li>
+                <li class="menu-desktop__item"><a class="menu-desktop__link" href="#">Coffee Machines</a></li>
+                <li class="menu-desktop__item"><a class="menu-desktop__link" href="#">Testimonials</a></li>
+                <li class="menu-desktop__item"><a class="menu-desktop__link" href="#">Services</a></li>
+                <li class="menu-desktop__item"><a class="menu-desktop__link" href="#">Pricing</a></li>
+                <li class="menu-desktop__item"><a class="menu-desktop__link" href="#">Contacts</a></li>
+            </ul>
+            <div></div>
+        </nav>
+
+        <a href="#" class="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
     </header>
+
+
+    <!--  .visible -->
+    <div class="overlay-navigation">
+         <a href="#" class="menu-button in-overlay active">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+
+        <nav>
+            <ul class="menu-mobile">
+                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Home</a></li>
+                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Courses</a></li>
+                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Photos</a></li>
+                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">About us</a></li>
+            </ul>
+        </nav>
+    </div> <!-- menu container  -->
+    
+
+
 
     <main>
         <!-- Olya -->
@@ -568,93 +609,8 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
 
-
-
-    <!-- alina  html -->
-    <section class="introducing">
-        <div class="middle">
-            <div class="columns">
-                <div class="one">
-                    <p class="caption">SPECIAL</p>
-                    <h2>Introducing SMIK Original 2021</h2>
-                    <p>We're delighted to announce that one of the most stylish and high-performing coffee machines by
-                        the famous Italian brand is now available for rent! </p>
-                    <button>Rent now</button>
-                    <button>Characteristics</button>
-                </div>
-                <div class="two">
-                    <img src="img/machine.jpg" alt="coffee machines">
-                </div>
-            </div>
-        </div>
-    </section>
-    <div> class="partners">
-        <div class="middle">
-            <div class="partners-slider">
-                <div>
-                    <img src="img/costa.jpg" alt="costa">
-                </div>
-                <div>
-                    <img src="img/monarch.jpg" alt="monarch">
-                </div>
-                <div>
-                    <img src="img/greenmount.jpg" alt="greenmount">
-                </div>
-                <div>
-                    <img src="img/melitta.jpg" alt="melitta">
-                </div>
-                <div>
-                    <img src="img/frontier.jpg" alt="frontier">
-                </div>
-                <div>
-                    <img src="img/folgers.jpg" alt="folgers">
-                </div>
-                <div>
-                    <img src="img/lavazza.jpg" alt="lavazza">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="exceptional-taste">
-        <div class="middle">
-            <div class="columns">
-                <div class="one">
-                    <img src="#" alt="картинка">
-                </div>
-                <div class="two">
-                    <p class="caption">EXCEPTIONAL TASTE</p>
-                    <h2>Divine Aroma in Every Cup</h2>
-                    <p>We supply our customers with only the best coffee and professional coffee machines. Thanks to our
-                        rental service, you can enjoy really exceptional coffee for affordable price.</p>
-                    <p class="small-text">Good coffee is an energy boost for the whole day and the source of a good
-                        mood. We at Coffee Space understand this better than anyone else, and for 10 years now we have
-                        been offering our customers reliable coffee equipment and the best varieties of coffee beans.
-                    </p>
-                    <ul>
-                        <li>
-                            <img src="#" alt="картинка">
-                            <h3>Best Beans</h3>
-                            <p>Our partner is Golden Peak, one of the best coffee producers in the world. With the
-                                coffee machine rental, you can also order any coffee variety you prefer.</p>
-                        </li>
-                        <li>
-
-                        </li>
-                        <li>
-
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="Ivan"></div>
-    <div class="Mark">
-
-
-    </div>
 </body>
 
 </html>
