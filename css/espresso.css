@@ -94,3 +94,10 @@
   line-height: 48px;
   font-family: "Poppins", sans-serif;
 }
+.Coffee-Beans .price {
+  color: #c00407;
+}
+.Coffee-Beans .small-arrow {
+  color: #c00407;
+  font-size: 15px;
+}
