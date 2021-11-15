@@ -24,6 +24,7 @@
   align-items: center;
   grid-gap: 20px;
   padding-top: 10%;
+  min-height: 300px;
 }
 .Coffee-Beans {
   display: flex;
@@ -34,8 +35,9 @@
   background-repeat: no-repeat;
   border-radius: 20px;
   padding: 10% 0 0 10%;
+  min-height: 300px;
 }
-.espresso hr {
+.coffee-photo .line {
   height: 2px;
   width: 9%;
   background-color: #c00407;
