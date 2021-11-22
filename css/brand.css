@@ -11,9 +11,13 @@
   grid-gap: 20px;
   margin-top: 30px;
 } */ 
-
+.brand-carusel .slides-brand img{
+  width: 250px;
+}
 .brand-carusel .slides-brand{
   display: flex;
+  background: #222; 
+
   
  
 }

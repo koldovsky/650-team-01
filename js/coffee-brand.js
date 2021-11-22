@@ -12,7 +12,12 @@
 let currentSlideIdx = 0;
 function renderSlides() {
     const slidesBrand = document.querySelector('.brand-carusel .slides-brand');
-    slidesBrand.innerHTML = slides[currentSlideIdx];
+    let currentSlides = slides.slice(currentSlideIdx, currentSlideIdx + 6);
+    if (currentSlides.length < 6){
+        currentSlides.push(slides.slice(0, 6 - currentSlides.length));
+    }
+
+    slidesBrand.innerHTML = currentSlides;
 }
 function nextSlide() {
     currentSlideIdx++;
@@ -25,11 +30,12 @@ function prevSlide() {
     if (currentSlideIdx < 0) currentSlideIdx = slides.length - 1;
     renderSlides();
 }
-// setInterval(nextSlide, 3000);
-document.querySelector('.carousel .prev').addEventListener('click', prevSlide);
-document.querySelector('.carousel .next').addEventListener('click', nextSlide);
 
 renderSlides();
+document.querySelector('.brand-carusel .prev').addEventListener('click', prevSlide);
+document.querySelector('.brand-carusel .next').addEventListener('click', nextSlide);
+
+
 
 window.addEventListener('resize', renderSlides);
 })();
