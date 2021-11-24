@@ -1,41 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
+
 /* .slick-brands img { */
-  /* width: 200px;
+
+
+/* width: 200px;
   height: 150px;
 }
 .slick-brands {
   /* background: #222; */
-  /* display: grid;
+
+
+/* display: grid;
   grid-template-columns: repeat(7, 150px);
   justify-content: center;
   grid-gap: 20px;
   margin-top: 30px;
-} */ 
- .arrow {
-  position: absolute;
-  margin-top: 75px; 
-  background:rgb(241, 235, 235);
-  border-radius: 15px;
-  border: 1px solid:black;
-  font-size: 25px;
-  line-height: 30px;
-  color:black;
-  display: block;
+} */
+
+.brand-carusel {
+    display: flex;
+    background: #222;
 }
+
+.brand-carusel .slides-brand img {
+    width: 250px;
+}
+
+.brand-carusel .slides-brand {
+    display: flex;
+}
+
+.arrow {
+    position: absolute;
+    margin-top: 75px;
+    background: rgb(241, 235, 235);
+    border-radius: 15px;
+    border: 1px solid: black;
+    font-size: 25px;
+    line-height: 30px;
+    color: black;
+}
+
 .prev {
-  left: 7px;
-} 
+    left: 7px;
+}
 
 .next {
-  right: 7px;
+    right: 7px;
 }
-.brand-carusel .slides-brand img{
-  width: 250px;
-}
-.brand-carusel .slides-brand{
-  display: flex;
-  background: #222; 
 
-  
- 
-}
+
+/* @media (max-width:400px) {
+    .slides-brand {
+        width: 100px;
+        display: block;
+    }
+} */
