@@ -20,13 +20,13 @@
 
 
         slidesBrand.innerHTML = currentSlides;
-        // if (window.innerWidth > 400) {
-        //     const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-        //     slidesBrand.innerHTML += slides[slide2Idx];
-        //     if (window.innerWidth > 800) {
-        //         const slide3Idx = slide2Idx + 1 >= slides.length ? 0 : slide2Idx + 1;
-        //         slidesBrand.innerHTML += slides[slide3Idx];
-        //     }
+        if (window.innerWidth > 400) {
+            const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+            slidesBrand.innerHTML += slides[slide2Idx];
+            if (window.innerWidth > 800) {
+                const slide3Idx = slide2Idx + 1 >= slides.length ? 0 : slide2Idx + 1;
+                slidesBrand.innerHTML += slides[slide3Idx];
+            }
     }
 
     function nextSlide() {
