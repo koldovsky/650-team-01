@@ -1,4 +1,4 @@
-(function() {
+(function () {
     const slides = [
         '<div><img src="img/lavazza.png" alt="lavazza"></div>',
         '<div><img src="img/folgers.png" alt="folgers"></div>',
@@ -18,8 +18,8 @@
             currentSlides.push(slides.slice(0, 6 - currentSlides.length));
         }
 
-
         slidesBrand.innerHTML = currentSlides;
+<<<<<<< HEAD
         if (window.innerWidth < 400) {
             const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
             slidesBrand.innerHTML += slides[slide2Idx];
@@ -28,6 +28,8 @@
                 slidesBrand.innerHTML += slides[slide3Idx];
             }
         }
+=======
+>>>>>>> 062f51f13a6fce617ba81c079005617ce817ca0f
     }
 
     function nextSlide() {
