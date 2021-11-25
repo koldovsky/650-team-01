@@ -15,10 +15,10 @@
         const slidesBrand = document.querySelector('.brand-carusel .slides-brand');
         let currentSlides = slides.slice(currentSlideIdx, currentSlideIdx + 6);
         if (currentSlides.length < 6) {
-            currentSlides.push(slides.slice(0, 6 - currentSlides.length));
+            currentSlides.push(...slides.slice(0, 6 - currentSlides.length));
         }
 
-        slidesBrand.innerHTML = currentSlides;
+        slidesBrand.innerHTML = currentSlides.join("");
         if (window.innerWidth < 400) {
             const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
             slidesBrand.innerHTML += slides[slide2Idx];

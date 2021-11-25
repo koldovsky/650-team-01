@@ -12,10 +12,10 @@
         const slidesCoffee = document.querySelector('.carusel-coffee .slides-coffee');
         let currentSlides = slides.slice(currentSlideIdx, currentSlideIdx + 4);
         if (currentSlides.length < 4) {
-            currentSlides.push(slides.slice(0, 4 - currentSlides.length));
+            currentSlides.push(...slides.slice(0, 4 - currentSlides.length));
         }
 
-        slidesCoffee.innerHTML = currentSlides;
+        slidesCoffee.innerHTML = currentSlides.join("");
 
     }
 

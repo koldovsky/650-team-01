@@ -3,15 +3,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #f9f9f9;
+    grid-gap: 20px;
+    padding: 30px;
 }
 
-.full-info {
+
+/* .full-info {
     margin: 30px 20px 30px 150px;
-}
+} */
 
 .text-content {
     display: grid;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
 }
 
 .text-content>p {
@@ -63,19 +66,18 @@
 }
 
 .contacts-form {
-    margin: 50px 0px 50px 0px;
-    padding: 0px 15px;
+    /* margin: 50px 0px 50px 0px; */
+    /* padding: 0px 15px; */
     background: white;
     box-shadow: 0 5px 10px 7px rgb(136 140 133 / 5%);
     border-radius: 10px;
-    height: 800px;
-    width: 600px;
+    /* height: 800px; */
+    /* width: 600px; */
 }
 
 .container-form {
     width: 450px;
     height: 600px;
-    /* background-color: blue; */
     margin: 150px auto 0 auto;
 }
 
