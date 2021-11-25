@@ -1,10 +1,10 @@
 (function() {
     const slides = [
-        '<div><img src="img/classico.png" alt="classico"></div>',
-        '<div><img src="img/intenso.png" alt="intenso"></div>',
-        '<div><img src="img/mocha.png" alt="mocha"></div>',
-        '<div><img src="img/decaf.png" alt="decaf"></div>',
-        '<div><img src="img/espreso.png" alt="espresso"></div>'
+        '<div><img src="img/classico.png" alt="classico"><p class="type-coffee">Classico</p><p class="price">4,5usd</p><button class="stub" type="submit">Add to Cart</button></div>',
+        '<div><img src="img/intenso.png" alt="intenso"><p class="type-coffee">Intenso</p><p class="price">5,00usd</p><button class="stub" type="submit">Add to Cart</button></div>',
+        '<div><img src="img/mocha.png" alt="mocha"><p class="type-coffee">Mocha</p><p class="price">4,50usd</p><button class="stub" type="submit">Add to Cart</button></div>',
+        '<div><img src="img/decaf.png" alt="decaf"><p class="type-coffee">Decaf</p><p class="price">5,00usd</p><button class="stub" type="submit">Add to Cart</button></div>',
+        '<div><img src="img/espreso.png" alt="espresso"><p class="type-coffee">Espresso</p><p class="price">4,50usd</p><button class="stub" type="submit">Add to Cart</button></div>'
     ]
     let currentSlideIdx = 0;
 
