@@ -16,6 +16,7 @@
         }
 
         slidesCoffee.innerHTML = currentSlides;
+
     }
 
     function nextSlide() {
