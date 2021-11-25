@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
+.carusel-coffee {
+    display: flex;
+}
+
+.carusel-coffee .slides-coffee img {
+    width: 250px;
+}
+
+.carusel-coffee .slides-coffee {
+    display: flex;
+}
+
+.prev {
+    position: absolute;
+    margin-top: 74px;
+    background: rgb(241, 235, 235);
+    border-radius: 16px;
+    border: 1px solid black;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+    left: 7px;
+}
+
+.next {
+    position: absolute;
+    margin-top: 74px;
+    background: rgb(241, 235, 235);
+    border-radius: 16px;
+    border: 1px solid black;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+    right: 7px;
+}
