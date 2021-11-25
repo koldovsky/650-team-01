@@ -32,8 +32,8 @@
     }
 
     renderSlides();
-    document.querySelector('.carusel-coffee .prev').addEventListener('click', prevSlide);
-    document.querySelector('.carusel-coffee .next').addEventListener('click', nextSlide);
+    document.querySelector('.carusel-coffee .prev-button').addEventListener('click', prevSlide);
+    document.querySelector('.carusel-coffee .next-button').addEventListener('click', nextSlide);
 
 
     window.addEventListener('resize', renderSlides);

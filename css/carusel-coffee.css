@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
 .carusel-coffee {
     display: flex;
+    margin: 40px 0 40px 0;
 }
 
 .carusel-coffee .slides-coffee img {
@@ -13,7 +14,7 @@
     margin: auto;
 }
 
-.prev {
+.prev-button {
     position: absolute;
     margin-top: 150px;
     background: rgb(241, 235, 235);
@@ -26,7 +27,7 @@
     cursor: pointer;
 }
 
-.next {
+.next-button {
     position: absolute;
     margin-top: 150px;
     background: rgb(241, 235, 235);
