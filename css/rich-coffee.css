@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    margin: 30px 0px 30px 0px;
+    margin: 35px 0px 35px 0px;
 }
 
 .rich-coffee>p {
@@ -16,24 +16,29 @@
 
 .rich-coffee h1 {
     color: #222;
-    font-size: 40px;
+    font-size: 34px;
     margin: 20px 0 10px 0;
     font-family: "Poppins", sans-serif;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
 }
 
 .rich-coffee h2 {
+    text-align: center;
     color: #656565;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     line-height: 27px;
     font-weight: 400;
+    margin: 30px 0px 0px 0px;
 }
 
-@media (max-width: 800px) {
+
+/* @media (max-width: 800px) {
     .rich-coffee {
         padding: 100px;
         display: flex;
         flex-direction: column;
         justify-items: center;
     }
-}
+} */
