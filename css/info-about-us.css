@@ -67,14 +67,18 @@
 }
 
 .container-form {
-    width: 450px;
-    height: 600px;
-    margin: 150px auto 0 auto;
+    /* width: 450px;
+    height: 600px; */
+    margin: 0 auto;
+    /* top: 50%; */
+    /* left: 50%; */
+    width: 250px;
 }
 
-.container-form .input-form {
-    padding: 50px 0 0 100px;
-}
+
+/* .input-form {
+    justify-content: center;
+} */
 
 .w-form {
     height: 43.2px;
@@ -103,7 +107,7 @@ textarea.w-form {
     color: white;
     font-size: 15px;
     font-family: "Roboto", sans-serif;
-    ;
+    margin-top: 12px;
 }
 
 .button:hover {
