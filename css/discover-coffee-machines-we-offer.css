@@ -58,8 +58,8 @@
 .machines-box-img {
     display: block;
     width: 100%;
-    width: 233px;
-    height: 233px;
+    max-width: 233px;
+    max-height: 233px;
     margin: auto;
 }
 
@@ -83,10 +83,12 @@
     margin-bottom: 24px;
 }
 
+.carousel {
+    display: flex;
+    justify-content: center;
+}
 
 .prev {
-    position: absolute;
-    left: 200px;
     font-size: 36px;
     color: red;
     background-color: white;
@@ -96,9 +98,6 @@
 }
 
 .next {
-
-    position: absolute;
-    right: 200px;
     font-size: 36px;
     color: red;
     background-color: white;
@@ -107,13 +106,10 @@
     border: none;
 }
 
-
-@media (min-width: 800px) {
-    .slides {
+.slides-container {
         display: flex;
-        justify-content: center;
+        
     }
-}
 
 .machines-box-cart {
     font-family: 'Roboto' , sans-serif;
