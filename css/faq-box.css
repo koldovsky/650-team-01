@@ -9,7 +9,7 @@
 
 @media (max-width: 800px) {
     .faq-box {
-        padding: 100px;
+        /* padding: 100px; */
         display: flex;
         flex-direction: column;
     }
@@ -46,7 +46,7 @@
     font-family: "Roboto", sans-serif;
     line-height: 27px;
     font-weight: 400;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 
@@ -82,26 +82,23 @@
 .active,
 .accordion:hover {
     background-color: #ccc;
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .panel {
-    padding: 0 18px;
+    padding: 18px 0;
     background-color: white;
     display: none;
     overflow: hidden;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: gray;
 }
 
 .accordion {
     font-size: 19px;
     font-family: "Roboto", sans-serif;
     color: black;
-}
-
-.panel {
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    color: gray;
 }
 
 .accordion:after {

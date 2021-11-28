@@ -7,21 +7,21 @@
  .carusel-coffee .slides-coffee img {
      width: 100%;
      max-width: 263px;
-     height: 263px;
-     /* padding: 0 20px 0 20px; */
+     height: 100%;
+     max-height: 263px;
  }
  
  @media(max-width:990px) {
      .carusel-coffee .slides-coffee img {
          max-width: 376px;
-         height: 376px;
+         max-height: 376px;
      }
  }
  
  @media(max-width:765px) {
      .carusel-coffee .slides-coffee img {
          max-width: 696px;
-         height: 696px;
+         max-height: 696px;
      }
  }
  

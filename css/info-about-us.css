@@ -7,6 +7,13 @@
     padding: 40px;
 }
 
+@media(max-width:768px) {
+    .info-about-us {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
 .text-content {
     display: grid;
 }
@@ -67,18 +74,9 @@
 }
 
 .container-form {
-    /* width: 450px;
-    height: 600px; */
-    margin: 0 auto;
-    /* top: 50%; */
-    /* left: 50%; */
+    margin: 70px auto;
     width: 250px;
 }
-
-
-/* .input-form {
-    justify-content: center;
-} */
 
 .w-form {
     height: 43.2px;
@@ -102,7 +100,7 @@ textarea.w-form {
 .button {
     background-color: #c00407;
     height: 40px;
-    width: 70%;
+    width: 100%;
     border: white;
     color: white;
     font-size: 15px;
