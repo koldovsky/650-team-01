@@ -5,8 +5,28 @@
  }
  
  .carusel-coffee .slides-coffee img {
-     width: 350px;
-     padding: 0 20px 0 20px;
+     width: 100%;
+     max-width: 263px;
+     height: 263px;
+     /* padding: 0 20px 0 20px; */
+ }
+ 
+ @media(max-width:990px) {
+     .carusel-coffee .slides-coffee img {
+         max-width: 376px;
+         height: 376px;
+     }
+ }
+ 
+ @media(max-width:765px) {
+     .carusel-coffee .slides-coffee img {
+         max-width: 696px;
+         height: 696px;
+     }
+ }
+ 
+ .slides-coffee>div {
+     padding: 0 15px;
  }
  
  .carusel-coffee .slides-coffee {

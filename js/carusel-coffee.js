@@ -10,9 +10,16 @@
 
     function renderSlides() {
         const slidesCoffee = document.querySelector('.carusel-coffee .slides-coffee');
-        let currentSlides = slides.slice(currentSlideIdx, currentSlideIdx + 4);
-        if (currentSlides.length < 4) {
-            currentSlides.push(...slides.slice(0, 4 - currentSlides.length));
+        let defaultAmount = 4;
+        if (window.innerWidth < 990) {
+            defaultAmount = 2;
+        }
+        if (window.innerWidth < 765) {
+            defaultAmount = 1;
+        }
+        let currentSlides = slides.slice(currentSlideIdx, currentSlideIdx + defaultAmount);
+        if (currentSlides.length < defaultAmount) {
+            currentSlides.push(...slides.slice(0, defaultAmount - currentSlides.length));
         }
 
         slidesCoffee.innerHTML = currentSlides.join("");
