@@ -13,20 +13,23 @@
 
     function renderSlides() {
         const slidesBrand = document.querySelector('.brand-carusel .slides-brand');
-        let currentSlides = slides.slice(currentSlideIdx, currentSlideIdx + 6);
-        if (currentSlides.length < 6) {
-            currentSlides.push(...slides.slice(0, 6 - currentSlides.length));
+        let defaultAmount = 6;
+        if (window.innerWidth < 980) {
+            defaultAmount = 3;
+        }
+        if (window.innerWidth < 768) {
+            defaultAmount = 2;
+        }
+        if (window.innerWidth < 478) {
+            defaultAmount = 1;
+        }
+        let currentSlides = slides.slice(currentSlideIdx, currentSlideIdx + defaultAmount);
+        if (currentSlides.length < defaultAmount) {
+            currentSlides.push(...slides.slice(0, defaultAmount - currentSlides.length));
         }
 
         slidesBrand.innerHTML = currentSlides.join("");
-        if (window.innerWidth < 400) {
-            const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-            slidesBrand.innerHTML += slides[slide2Idx];
-            if (window.innerWidth < 800) {
-                const slide3Idx = slide2Idx + 1 >= slides.length ? 0 : slide2Idx + 1;
-                slidesBrand.innerHTML += slides[slide3Idx];
-            }
-        }
+
     }
 
     function nextSlide() {
@@ -42,8 +45,8 @@
     }
 
     renderSlides();
-    document.querySelector('.brand-carusel .prev').addEventListener('click', prevSlide);
-    document.querySelector('.brand-carusel .next').addEventListener('click', nextSlide);
+    document.querySelector('.brand-carusel .prev-icon').addEventListener('click', prevSlide);
+    document.querySelector('.brand-carusel .next-icon').addEventListener('click', nextSlide);
 
 
 
