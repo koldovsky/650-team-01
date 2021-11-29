@@ -4,14 +4,14 @@
     background-size: cover;
     background-position: center;
     height: 666px;
-    padding: 172.5px 0 147.5px 120px;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
 }
 
 .rent-info {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 0 15px;
-    margin: 0 33px;
 }
 
 .rent-info>p {
@@ -43,7 +43,7 @@
 .rent-button {
     background-color: #c00407;
     height: 45px;
-    width: 12%;
+    width: 177px;
     border: white;
     color: white;
     font-size: 16.5px;
@@ -55,4 +55,14 @@
 .rent-button:hover {
     background-color: black;
     color: white;
+}
+
+@media (max-width:760px) {
+    .rent {
+        padding-left: 30px;
+        height: 519px;
+    }
+    .rent-info>h1 {
+        font-size: 48px;
+    }
 }
