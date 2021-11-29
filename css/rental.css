@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
+.rent {
+    background-image: url(../img/background-coffe.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 666px;
+    padding: 172.5px 0 147.5px 120px;
+}
+
+.rent-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+    margin: 0 33px;
+}
+
+.rent-info>p {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.rent-info>h1 {
+    color: #fff;
+    font-size: 63px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+}
+
+.rent-info>h1 span {
+    color: #c00407;
+}
+
+.rent-info>h2 {
+    color: #dfdfdf;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rent-button {
+    background-color: #c00407;
+    height: 45px;
+    width: 12%;
+    border: white;
+    color: white;
+    font-size: 16.5px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.rent-button:hover {
+    background-color: black;
+    color: white;
+}
