@@ -95,6 +95,7 @@
     padding: 10px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .next {
@@ -104,11 +105,11 @@
     padding: 10px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .slides-container {
-        display: flex;
-        
+    display: flex;
     }
 
 .machines-box-cart {
@@ -120,6 +121,7 @@
     color: white;
     background-color: var(--header-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .machines-box-cart:hover {
