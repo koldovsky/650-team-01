@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
+.info-special {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.special {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+}
+
+.special-img {
+    padding: 0 15px;
+}
+
+.special-img img {
+    height: 550px;
+}
