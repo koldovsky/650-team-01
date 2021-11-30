@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
 .pricing-card {
     display: flex;
-    padding: 0 30px 0 30px;
+    padding: 0 90px 0 90px;
     justify-content: center;
 }
 
@@ -46,11 +46,11 @@
 }
 
 .manual-line hr {
-    height: 16.6px;
     width: 14px;
+    border: 1px solid #c00407;
+    display: inline-block;
+    vertical-align: middle;
     background-color: #c00407;
-    /* padding-right: 5px; */
-    display: inline;
 }
 
 .manual-line span {
