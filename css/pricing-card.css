@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
 .pricing-card {
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px 0 10px 0;
+    padding: 0 30px 0 30px;
     justify-content: center;
 }
 
@@ -11,6 +10,13 @@
     flex-direction: column;
     box-shadow: 0 5px 10px 7px rgb(136 140 133 / 5%);
     margin: 10px;
+    padding: 30px;
+}
+
+.manual-info div {
+    padding-top: 20px;
+    display: flex;
+    align-items: start;
 }
 
 .manual img {
@@ -36,13 +42,21 @@
     color: black;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
+    padding: 20px 0 20px 0;
 }
 
-.manual hr {
-    height: 3px;
-    width: 3%;
+.manual-line hr {
+    height: 16.6px;
+    width: 14px;
     background-color: #c00407;
-    padding-right: 5px;
+    /* padding-right: 5px; */
+    display: inline;
+}
+
+.manual-line span {
+    color: black;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
 }
 
 .manual-info span {
