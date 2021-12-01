@@ -81,3 +81,23 @@
     background-color: #c00407;
     color: white;
 }
+
+@media (max-width: 600px) {
+    .pricing-card {
+        flex-direction: column;
+        padding: 0 15px 0 15px;
+    }
+    /* .munual {
+        display: block;
+        box-shadow: 0 5px 10px 7px rgb(136 140 133 / 5%);
+        width: 80%;
+        align-items: center;
+        margin: 10px;
+        padding: 30px;
+        margin: auto;
+    }
+    .munual img {
+        display: block;
+        margin: auto;
+    } */
+}
