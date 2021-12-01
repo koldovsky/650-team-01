@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&family=Roboto:wght@700&display=swap");
 .pricing-card {
     display: flex;
-    padding: 0 90px 0 90px;
+    padding: 0 74px 0 74px;
     justify-content: center;
 }
 
@@ -82,22 +82,20 @@
     color: white;
 }
 
+@media(max-width:1000px) {
+    .pricing-card {
+        flex-wrap: wrap;
+        padding: 0 32px 0 32px;
+    }
+    .manual {
+        max-width: 355px;
+    }
+}
+
 @media (max-width: 600px) {
     .pricing-card {
         flex-direction: column;
+        flex-wrap: wrap;
         padding: 0 15px 0 15px;
     }
-    /* .munual {
-        display: block;
-        box-shadow: 0 5px 10px 7px rgb(136 140 133 / 5%);
-        width: 80%;
-        align-items: center;
-        margin: 10px;
-        padding: 30px;
-        margin: auto;
-    }
-    .munual img {
-        display: block;
-        margin: auto;
-    } */
 }
