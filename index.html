@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Machine Rental Website Template Demo</title>
-    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/card-container.css">
     <link rel="stylesheet" href="css/aboutcoffee.css">
@@ -29,12 +29,32 @@
     <link rel="stylesheet" href="css/info-special.css">
     <link rel="stylesheet" href="css/pricing.css">
     <link rel="stylesheet" href="css/pricing-card.css">
+    <link rel="stylesheet" href="css/ask.css">
 </head>
 
 <body>
+    <div class="location">
+        <div class="location_box">
+            <div class="location_city">
+                <a href="#" class="location_city__svg">
+                    <svg width="30px" height="30px" viewBox="0 0 773 1014" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M386.096 0C283.733 0.118106 185.597 40.8339 113.215 113.215C40.8339 185.597 0.118106 283.733 0 386.096C0 665.955 278.1 922.046 363.319 993.859L386.974 1013.78L411.034 994.373C425.756 982.489 772.193 699.555 772.193 386.096C772.074 283.733 731.359 185.597 658.977 113.215C586.596 40.8339 488.459 0.118106 386.096 0V0ZM606.221 383.25C606.225 426.228 593.484 468.241 569.609 503.977C545.734 539.713 511.798 567.567 472.093 584.015C432.388 600.464 388.697 604.768 346.545 596.385C304.393 588.001 265.674 567.306 235.284 536.916C204.894 506.526 184.199 467.807 175.815 425.655C167.432 383.503 171.737 339.812 188.185 300.107C204.634 260.401 232.487 226.466 268.223 202.591C303.959 178.716 345.972 165.975 388.95 165.979C446.551 166.052 501.773 188.967 542.503 229.697C583.233 270.428 606.148 325.649 606.221 383.25Z" fill="#C00407"></path>
+                    </svg>
+                </a>
+                <p class="location_city__adress">303 E 61st St, New York, NY 10065</p>
+            </div>
+            <div class="location_contact">
+                <a href="" class="location_contact__svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 891.024 891.024">   
+                        <path d="M2.8,180.875c46.6,134,144.7,286.2,282.9,424.399c138.2,138.2,290.4,236.301,424.4,282.9c18.2,6.3,38.3,1.8,52-11.8   l92.7-92.7l21.6-21.6c19.5-19.5,19.5-51.2,0-70.7l-143.5-143.4c-19.5-19.5-51.2-19.5-70.7,0l-38.899,38.9   c-20.2,20.2-52.4,22.2-75,4.6c-44.7-34.8-89-73.899-131.9-116.8c-42.9-42.9-82-87.2-116.8-131.9c-17.601-22.6-15.601-54.7,4.6-75   l38.9-38.9c19.5-19.5,19.5-51.2,0-70.7l-143.5-143.5c-19.5-19.5-51.2-19.5-70.7,0l-21.6,21.6l-92.7,92.7   C1,142.575-3.5,162.675,2.8,180.875z"/>
+                    </svg>
+                </a>
+                <a href="tel:+1 (234) 567 89 00" class="location_contact__phone">+1 (234) 567 89 00</a>
+            </div>
+        </div>
+    </div>
     <header class="navbar">
-        <a href="index.html" class="logo"><img src="img/logo.svg" alt="Beetroot"></a>
-
+        <a href="index.html" class="logo"><img src="img/logo.svg" alt="coffee"></a>
 
         <nav class="menu">
             <ul class="menu-desktop">
@@ -59,7 +79,7 @@
 
     <!--  .visible -->
     <div class="overlay-navigation">
-        <a href="#" class="menu-button in-overlay active">
+         <a href="#" class="menu-button in-overlay active">
             <span></span>
             <span></span>
             <span></span>
@@ -68,12 +88,10 @@
 
         <nav>
             <ul class="menu-mobile">
-                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">About Us</a></li>
-                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Coffee Machines</a></li>
-                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Testimonials</a></li>
-                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Services</a></li>
-                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Pricing</a></li>
-                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Contacts</a></li>
+                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Home</a></li>
+                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Courses</a></li>
+                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Photos</a></li>
+                <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">About us</a></li>
             </ul>
         </nav>
     </div>
@@ -83,14 +101,7 @@
 
 
     <main>
-        <!-- Olya -->
-        <!-- <div class="rental">
-            <img class="coffee_man" src="img/background-coffe.jpg" alt="man-holding-coffee"> 
-            <h5>RENTAL</h5>
-            <h1>Rent a Coffee Machine</h1>
-            <h2>Need a coffee machine for commercial or home use? Get one here!</h2>
-            <button>Coffee Machines</button>
-        </div> -->
+ 
         <div class="time">
             <div class="clock"></div>
             <div class="date"></div>
@@ -470,9 +481,63 @@
             </div>
             <!-- discover coffee machines we offer  -->
 
-            <div class="taste">
-                <!-- Divine Aroma  -->
-            </div>
+            <div class="ask_container">
+                <div class="ask_box">
+                    <div class="ask_box_present">
+                        <img src="img/coffeebar.jpg" alt="#" class="ask_box_present__img">
+                    </div>
+                    <div class="ask_box_content">
+                        <p class="ask_box_content__questions">Questions?</p>
+                        <p class="ask_box_content__title">Ask Us Anything About <span>Coffee</span></p>
+                        <p class="ask_box_content__subtitle">Coffee is our business. Ask us anything about the coffee machines or coffee products if you have any questions.</p>
+                        <div class="ask_box_content_links">
+                            <a href="" class="ask_box_content_links__faq">FAQ</a>
+                            <a href="" class="ask_box_content_links__form">Ask a Question</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+                <div class="counter_fluid">
+                    <div class="counter_box">
+                        <div class="counter_box_list counter_box_list__first">
+                            <div class="counter_box_list_post">
+                                <svg width="70px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve" style="max-width:100%" height="100%">
+                                    <g style="" fill="currentColor"><g style="" fill="currentColor"><path fill="currentColor" d="M62,66H18c-2.206,0-4-1.794-4-4V18c0-2.206,1.794-4,4-4h44c2.206,0,4,1.794,4,4v44    C66,64.206,64.206,66,62,66z M18,18v44h44.003L62,18H18z" style=""></path></g><g style="" fill="currentColor"><rect x="17" y="24" fill="currentColor" width="47" height="4" style=""></rect></g></g><g style="" fill="currentColor"><rect x="24" y="35" fill="currentColor" width="5" height="4" style=""></rect></g><g style="" fill="currentColor"><rect x="33" y="35" fill="currentColor" width="5" height="4" style=""></rect></g><g style="" fill="currentColor"><rect x="24" y="43" fill="currentColor" width="5" height="4" style=""></rect></g><g style="" fill="currentColor"><rect x="33" y="43" fill="currentColor" width="5" height="4" style=""></rect></g><g style="" fill="currentColor"><rect x="24" y="51" fill="currentColor" width="5" height="4" style=""></rect></g><g style="" fill="currentColor"><rect x="33" y="51" fill="currentColor" width="5" height="4" style=""></rect></g><g style="" fill="currentColor"><rect x="42" y="51" fill="currentColor" width="5" height="4" style=""></rect></g><g style="" fill="currentColor"><rect x="51" y="51" fill="currentColor" width="5" height="4" style=""></rect></g><g style="" fill="currentColor"><polygon fill="currentColor" points="45.9,46.829 40.586,41.514 43.414,38.686 45.9,41.171 53.586,33.486 56.414,36.314  " style=""></polygon></g>
+                                </svg>
+                            </div>
+                            <p class="counter_box_list_number">10</p>
+                            <p class="counter_box_list_subtitle">Years providing you with the most delicious coffee.</p>
+                        </div>
+                        <div class="counter_box_list counter_box_list__second">
+                            <div class="counter_box_list_post">
+                                <svg width="70px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;max-width:100%" xml:space="preserve" height="100%">
+                                    <g style="" fill="currentColor"><path d="M44,54.9h16c3.3,0,6-2.7,6-6v-2c0-5.4-3.1-10.1-7.5-12.4c2.2-1.8,3.5-4.6,3.5-7.6c0-5.5-4.5-10-10-10s-10,4.5-10,10   c0,3,1.4,5.8,3.5,7.6c-4.5,2.3-7.5,7-7.5,12.4v2C38,52.2,40.7,54.9,44,54.9z M52,20.9c3.3,0,6,2.7,6,6s-2.7,6-6,6s-6-2.7-6-6   S48.7,20.9,52,20.9z M42,46.9c0-5.5,4.5-10,10-10s10,4.5,10,10v2c0,1.1-0.9,2-2,2H44c-1.1,0-2-0.9-2-2V46.9z" style="" fill="currentColor"></path><path d="M94.3,57.9l-0.2-0.2C91,55,86.9,54.1,83.2,55C85,50.8,86,46.2,86,41.4c0-19-15.2-34.5-34-34.5S18,22.4,18,41.4   c0,6.1,1.6,11.8,4.3,16.8c-0.1,0-0.2,0-0.3,0l-12,2c-1.6,0.3-3,1.1-3.9,2.4c-0.9,1.3-1.3,2.9-1,4.5l3.4,20.7   c0.5,3.3,3.6,5.5,6.9,4.9l15-2.5c0.3,0,0.5,0,0.8,0l11.1,2.6c0.4,0.1,0.9,0.2,1.4,0.2c0.3,0,0.6,0,1-0.1l22.8-3.8   c1.4-0.2,2.6-0.9,3.5-2l23.5-26.6C95.2,59.9,95.1,58.6,94.3,57.9z M22,41.4c0-16.8,13.5-30.5,30-30.5s30,13.7,30,30.5   c0,7.9-3,15.1-7.8,20.5l-1,1.1c-1.3,1.3-2.7,2.5-4.1,3.5c-2.4-4.2-7.3-6.7-12.3-5.8l-15.7,2.6c-0.4,0.1-0.7,0-1.1-0.1l-9.5-3.9   c-1.1-0.5-2.3-0.8-3.5-1C23.8,53.4,22,47.6,22,41.4z M67.9,84.7c-0.3,0.4-0.7,0.6-1.2,0.7L44,89.1c-0.3,0-0.5,0-0.8,0l-11.1-2.6   c-0.5-0.1-0.9-0.2-1.4-0.2c-0.3,0-0.6,0-1,0.1l-15,2.5c-1.1,0.2-2.1-0.6-2.3-1.7L9,66.5c-0.1-0.5,0-1.1,0.4-1.5   c0.3-0.4,0.8-0.7,1.3-0.8l12-2c2.1-0.3,4.3-0.1,6.3,0.7l9.5,3.9c1,0.4,2.2,0.5,3.2,0.4l15.7-2.6c3.7-0.6,7.2,1.4,8.6,4.7l-14.6,2.4   c-1.1,0.2-1.8,1.2-1.6,2.3c0.2,1.1,1.2,1.8,2.3,1.7l16.8-2.8c0.2,0,0.4-0.1,0.6-0.2v0c0.2-0.1,0.4-0.3,0.6-0.5l10.3-11   c2.6-2.8,6.6-3.3,9.7-1.5L67.9,84.7z" style="" fill="currentColor"></path></g>
+                                </svg>
+                            </div>
+                            <p class="counter_box_list_number">1240+</p>
+                            <p class="counter_box_list_subtitle">Clients order our coffee machines and coffee beans each month.</p>
+                        </div>
+                        <div class="counter_box_list counter_box_list__third">
+                            <div class="counter_box_list_post">
+                                <svg width="70px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" style="max-width:100%" height="100%">
+                                    <path d="M58.915,50.884H21.414V34.553c2.863-2.273,4.723-5.757,4.784-9.674h17.83v1.567c0,0.829,0.672,1.5,1.5,1.5  s1.5-0.671,1.5-1.5v-1.567h0.389c6.069,0,11.007-4.938,11.007-11.007S53.485,2.864,47.416,2.864H15.191  c-0.272,0-0.54,0.016-0.806,0.036c-0.263-0.019-0.527-0.036-0.794-0.036c-6.952,0-12.608,5.656-12.608,12.608v9.207  c0,4.289,2.157,8.079,5.438,10.358v15.846H5.085c-2.672,0-4.847,2.174-4.847,4.847v3.905c0,0.828,0.671,1.5,1.5,1.5h60.523  c0.828,0,1.5-0.672,1.5-1.5V55.73C63.762,53.058,61.588,50.884,58.915,50.884z M3.982,24.68v-9.207c0-5.298,4.311-9.608,9.608-9.608  c0.202,0,0.401,0.016,0.696,0.037c0.074,0.004,0.15,0.005,0.226-0.001c0.225-0.018,0.449-0.035,0.679-0.035h32.225  c4.415,0,8.007,3.592,8.007,8.007s-3.592,8.007-8.007,8.007H24.699c-0.829,0-1.5,0.671-1.5,1.5v1.301  c0,5.298-4.311,9.608-9.608,9.608S3.982,29.978,3.982,24.68z M9.421,36.564c1.308,0.46,2.707,0.724,4.17,0.724  c1.708,0,3.336-0.343,4.823-0.961v14.557H9.421V36.564z M60.762,58.136H3.238V55.73c0-1.019,0.829-1.847,1.847-1.847h53.83  c1.019,0,1.847,0.828,1.847,1.847V58.136z" style="" fill="currentColor"></path><path d="M41.44,36.55c-0.333-0.08-0.711-0.163-1.203-0.22l-0.187-0.859c-0.176-0.811-0.982-1.325-1.783-1.148  c-0.811,0.176-1.324,0.974-1.148,1.783l2.504,11.549c0.002,0.009,0.004,0.017,0.006,0.025v0.001v0.001  c0.036,0.163,0.101,0.314,0.186,0.454c0.007,0.012,0.012,0.024,0.02,0.036c0.082,0.127,0.184,0.237,0.298,0.334  c0.02,0.016,0.037,0.031,0.057,0.046c0.116,0.089,0.243,0.161,0.383,0.213c0.021,0.008,0.043,0.013,0.064,0.02  c0.146,0.047,0.297,0.079,0.458,0.079h8.865l0,0c0.001,0,0.001,0,0.001,0c0.001,0,0.001,0,0.001,0c0.16,0,0.311-0.032,0.454-0.078  c0.023-0.008,0.046-0.013,0.069-0.021c0.137-0.052,0.263-0.123,0.378-0.21c0.021-0.017,0.041-0.034,0.063-0.052  c0.112-0.095,0.212-0.202,0.292-0.326c0.01-0.016,0.017-0.032,0.026-0.049c0.079-0.133,0.141-0.276,0.176-0.432  c0.001-0.005,0.005-0.009,0.006-0.014l0.003-0.014c0-0.002,0.001-0.003,0.001-0.004l2.508-11.558  c0.176-0.81-0.338-1.608-1.147-1.784c-0.81-0.174-1.608,0.339-1.784,1.147l-0.275,1.268c-0.511-0.028-0.824-0.101-1.189-0.188  c-0.556-0.133-1.186-0.284-2.376-0.284s-1.82,0.151-2.375,0.284c-0.47,0.113-0.841,0.202-1.677,0.202  C42.279,36.751,41.909,36.662,41.44,36.55z M45.489,39.467c0.469-0.113,0.84-0.202,1.675-0.202c0.836,0,1.207,0.089,1.677,0.202  c0.344,0.082,0.733,0.167,1.248,0.224l-1.339,6.173h-6.446l-1.377-6.354c0.515,0.121,1.124,0.242,2.186,0.242  C44.303,39.751,44.933,39.6,45.489,39.467z" style="" fill="currentColor"></path><path d="M47.027,32.861V30.49c0-0.829-0.672-1.5-1.5-1.5s-1.5,0.671-1.5,1.5v2.372c0,0.828,0.672,1.5,1.5,1.5  S47.027,33.689,47.027,32.861z" style="" fill="currentColor"></path><path d="M11.5,27.433c0.829,0,1.5-0.671,1.5-1.5V14.219c0-0.829-0.671-1.5-1.5-1.5s-1.5,0.671-1.5,1.5v11.713  C10,26.761,10.671,27.433,11.5,27.433z" style="" fill="currentColor"></path><path d="M16.333,27.433c0.829,0,1.5-0.671,1.5-1.5V14.219c0-0.829-0.671-1.5-1.5-1.5s-1.5,0.671-1.5,1.5v11.713  C14.833,26.761,15.505,27.433,16.333,27.433z" style="" fill="currentColor"></path>
+                                </svg>
+                            </div>
+                            <p class="counter_box_list_number">8</p>
+                            <p class="counter_box_list_subtitle">Modern coffee machines are for rent on our website right now.</p>
+                        </div>
+                        <div class="counter_box_list counter_box_list__fourth">
+                            <div class="counter_box_list_post">
+                                <svg width="70px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve" style="max-width:100%" height="100%">
+                                    <g style="" fill="currentColor"><g style="" fill="currentColor"><path fill="currentColor" d="M10,38.1c-2.6,0-5.1-1.8-6.4-4.6c-0.8-1.7-1-3.6-0.6-5.3c0.4-1.8,1.5-3.2,3-3.8c0.7-0.3,1.4-0.5,2.2-0.5    c2.6,0,5.1,1.8,6.4,4.6c1.7,3.7,0.6,7.8-2.4,9.2C11.5,37.9,10.7,38.1,10,38.1z M8.1,25.8c-0.5,0-0.9,0.1-1.3,0.3    c-0.9,0.4-1.6,1.3-1.9,2.5c-0.3,1.3-0.1,2.7,0.5,4c1,2.1,2.8,3.4,4.6,3.4c0.5,0,0.9-0.1,1.3-0.3c2-0.9,2.7-3.9,1.4-6.5    C11.8,27.2,9.9,25.8,8.1,25.8z" style=""></path><path fill="currentColor" d="M12,37.4c-0.1,0-0.2,0-0.3,0c-0.5-0.1-0.9-0.7-0.7-1.2c0.3-1.1-0.2-2.4-1.1-3c-0.3-0.2-0.6-0.4-1-0.6    c-0.3-0.2-0.7-0.3-1-0.5c-2.3-1.5-3.3-4.6-2.4-7.1c0.2-0.5,0.8-0.8,1.3-0.6c0.5,0.2,0.8,0.8,0.6,1.3c-0.6,1.7,0.1,3.8,1.6,4.8    c0.3,0.2,0.5,0.3,0.8,0.4c0.4,0.2,0.9,0.4,1.3,0.8c1.5,1.2,2.3,3.3,1.8,5.2C12.8,37.1,12.4,37.4,12,37.4z" style=""></path></g><g style="" fill="currentColor"><g style="" fill="currentColor"><path fill="currentColor" d="M22.5,7.9c-0.3,0-0.5-0.1-0.7-0.3c-0.5-0.5-1.2-1.5-1.1-2.9c0-0.3,0.1-0.6,0.2-0.8L21,3.6     c0.3-1,0.3-1.1,0.2-2c-0.1-0.5,0.3-1.1,0.8-1.1c0.6-0.1,1.1,0.3,1.1,0.8c0.2,1.3,0.1,1.7-0.3,2.9l-0.1,0.3c0,0.2-0.1,0.3-0.1,0.5     c0,0.4,0.2,0.8,0.5,1.2c0.4,0.4,0.4,1,0,1.4C23,7.8,22.7,7.9,22.5,7.9z" style=""></path><path fill="currentColor" d="M26.4,7.9c-0.3,0-0.5-0.1-0.7-0.3c-0.5-0.5-1.2-1.5-1.1-2.8c0-0.3,0.1-0.6,0.2-0.8l0.1-0.3     c0.3-1,0.3-1.1,0.2-2C25,1.1,25.4,0.6,26,0.5c0.6-0.1,1.1,0.3,1.1,0.8c0.2,1.3,0.1,1.7-0.3,2.9l-0.1,0.3c0,0.2-0.1,0.3-0.1,0.5     c0,0.4,0.2,0.8,0.5,1.2c0.4,0.4,0.4,1,0,1.4C26.9,7.8,26.7,7.9,26.4,7.9z" style=""></path><path fill="currentColor" d="M30.3,7.9c-0.3,0-0.5-0.1-0.7-0.3c-0.5-0.5-1.2-1.5-1.1-2.8c0-0.3,0.1-0.6,0.2-0.8l0.1-0.3     c0.3-1,0.3-1.1,0.2-2c-0.1-0.5,0.3-1.1,0.8-1.1c0.6-0.1,1.1,0.3,1.1,0.8c0.2,1.3,0.1,1.7-0.3,2.9l-0.1,0.3c0,0.2-0.1,0.3-0.1,0.5     c0,0.4,0.2,0.8,0.5,1.2c0.4,0.4,0.4,1,0,1.4C30.8,7.8,30.6,7.9,30.3,7.9z" style=""></path></g><g style="" fill="currentColor"><path fill="currentColor" d="M33.9,38.9H18.8c-0.5,0-0.9-0.4-1-0.9l-2.9-27c0-0.3,0.1-0.6,0.3-0.8c0.2-0.2,0.5-0.3,0.7-0.3h20.1     c0.3,0,0.5,0.1,0.7,0.3c0.2,0.2,0.3,0.5,0.3,0.8l-2.2,27C34.9,38.5,34.4,38.9,33.9,38.9z M19.7,36.9H33l2-25H17L19.7,36.9z" style=""></path><path fill="currentColor" d="M34.4,33.2c-0.4,0-0.7-0.2-0.9-0.5c-0.3-0.5-0.1-1.1,0.4-1.3c7-3.6,8.9-8,9.3-11c0.2-1.8-0.6-3.5-2.1-4.2     c-0.7-0.3-1.4-0.4-2-0.1c-1.6,0.6-2.6,2.7-2.6,2.8c-0.2,0.5-0.8,0.7-1.3,0.5c-0.5-0.2-0.7-0.8-0.5-1.3c0.1-0.1,1.3-2.9,3.8-3.8     c1.2-0.4,2.4-0.4,3.6,0.2c2.3,1.1,3.6,3.6,3.3,6.3c-0.4,3.5-2.6,8.5-10.3,12.5C34.7,33.2,34.5,33.2,34.4,33.2z" style=""></path></g></g><path fill="currentColor" d="M42.3,47.5H5.8c-0.4,0-0.7-0.2-0.9-0.5l-2.5-4.3c-0.2-0.3-0.2-0.7,0-1c0.2-0.3,0.5-0.5,0.9-0.5h41.5   c0.4,0,0.7,0.2,0.9,0.5c0.2,0.3,0.2,0.7,0,1L43.1,47C42.9,47.3,42.6,47.5,42.3,47.5z M6.3,45.5h35.3l1.3-2.3H5L6.3,45.5z" style=""></path></g>
+                                </svg>
+                            </div>
+                            <p class="counter_box_list_number">5</p>
+                            <p class="counter_box_list_subtitle">Coffee varieties you can buy together with the coffee machine rental.</p>
+                        </div>
+                    </div>
+                </div>
             <!-- Divine Aroma  -->
 
             <div class="present-box-flex">
@@ -785,7 +850,7 @@
 
 
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/coffee-brand.js"></script>
     <script src="js/carusel-coffee.js"></script>
     <script src="js/clock.js"></script>
